@@ -12,8 +12,9 @@ import {
 } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 import Category from "../components/Category";
+import Home from "../components/Home";
 
-const { width, height } = Dimensions.get("window");
+const { width } = Dimensions.get("window");
 
 class Explore extends Component {
   componentWillMount() {
@@ -54,7 +55,7 @@ class Explore extends Component {
               <Icon name="ios-search" size={20} style={{ marginRight: 10 }} />
               <TextInput
                 underlineColorAndroid="transparent"
-                placeholder="search"
+                placeholder="Try Yangon "
                 placeholderTextColor="grey"
                 style={{
                   flex: 1,
@@ -146,6 +147,47 @@ class Explore extends Component {
                     }}
                   />
                 </View>
+              </View>
+            </View>
+
+            <View style={{ marginTop: 40, paddingHorizontal: 20 }}>
+              <Text
+                style={{
+                  fontSize: 24,
+                  fontWeight: "700"
+                }}
+              >
+                Homes around the world
+              </Text>
+              <View
+                style={{
+                  marginTop: 20,
+                  flexDirection: "row",
+                  flexWrap: "wrap",
+                  justifyContent: "space-between"
+                }}
+              >
+                <Home
+                  width={width}
+                  name="The Cozy Palace"
+                  type="PRIVATE ROOM - 2 BEDS"
+                  price="82"
+                  rating={4}
+                />
+                <Home
+                  width={width}
+                  name="The Cozy Palace"
+                  type="PRIVATE ROOM - 2 BEDS"
+                  price="82"
+                  rating={4}
+                />
+                <Home
+                  width={width}
+                  name="The Cozy Palace"
+                  type="PRIVATE ROOM - 2 BEDS"
+                  price="82"
+                  rating={4}
+                />
               </View>
             </View>
           </ScrollView>
