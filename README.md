@@ -10,7 +10,7 @@ It only includes the first page [Explore page] of Airbnb mobile app. This is one
 ## Demo
 
 <p align="center">
-  <img src = "https://i.imgur.com/o4OGfZS.gif" width=350>
+  <img src = "https://i.imgur.com/o4OGfZS.gif" width=600>
 </p>
 
 ## Run it locally
