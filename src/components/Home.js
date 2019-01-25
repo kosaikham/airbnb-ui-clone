@@ -61,7 +61,6 @@ class Home extends Component {
             maxStars={5}
             rating={rating}
             starSize={10}
-            fullStarColor="yellow"
           />
         </View>
       </View>
