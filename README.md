@@ -30,3 +30,7 @@ npm start
 ## License
 
 This project is licensed under Unlicense license. This license does not require you to take the license with you to your project.
+
+## Acknowledgments
+
+- Special thanks to [Unsure Programmer ( Youtube Channel )](https://www.youtube.com/channel/UCiNWv52iO_OAdZ12kslG4Cg) for creating high quality tutorials for beginner
